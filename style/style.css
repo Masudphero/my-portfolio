@@ -134,7 +134,23 @@ gap: 24px;
 .text-bg{
     padding: 50px 30px;
 }
-/* resumi section coteiner */
+/* resumi section styles */
+
 .resume-cntainer{
     display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
